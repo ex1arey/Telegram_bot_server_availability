@@ -23,9 +23,9 @@ async def check_server():
                 await bot.send_message(chat_id=chat_id, text="Сервер снова доступен")
             server_down = False
         except:
-            print("Сервер_Макаров недоступен")
+            print("Сервер недоступен")
             if not server_down:
-                await bot.send_message(chat_id=chat_id, text="Сервер Макаров недоступен")
+                await bot.send_message(chat_id=chat_id, text="Сервер недоступен")
             server_down = True
 
         s.close()
