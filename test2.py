@@ -3,14 +3,14 @@ import asyncio
 import telegram
 
 servers = [
-    {"address": "37.53.83.166", "port": 22, "name": "Сервер_makariv"},
-    {"address": "176.104.12.189", "port": 22, "name": "Сервер_kiev"},
-    {"address": "213.246.39.44", "port": 22, "name": "Test_ex1arey"},
-    {"address": "109.238.14.118", "port": 22, "name": "Test_annet"}
+    {"address": "IP ADRESS", "port": 22, "name": "Название сервера"},
+    {"address": "IP ADRESS", "port": 22, "name": "Название сервера"},
+    {"address": "IP ADRESS", "port": 22, "name": "Название сервера"},
+    {"address": "IP ADRESS", "port": 22, "name": "Название сервера"}
 ]
 
-bot_token = "6152656052:AAHXWdYKO6dC1484ugHZa7fbehw9KiDzR3c"
-chat_id = "413839778"
+bot_token = "Telegram TOKEN"
+chat_id = "CHAT ID"
 
 bot = telegram.Bot(token=bot_token)
 
